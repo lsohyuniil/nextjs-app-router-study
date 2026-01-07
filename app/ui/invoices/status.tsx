@@ -1,5 +1,5 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
-import clsx from 'clsx';
+import clsx from 'clsx'; // 클래스 이름을 쉽게 전환할 수 있는 라이브러리
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
